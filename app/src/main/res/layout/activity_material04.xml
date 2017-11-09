@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinaterLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Material04"
+    android:background="#ba8181">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_gravity="end|bottom">
+        
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_gravity="end|bottom"
+            android:src="@android:drawable/ic_dialog_email"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSimple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="boton Simple"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnInteractivo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="boton Interactivo"
+        android:layout_marginTop="80dp"/>
+
+    <Button
+        android:id="@+id/btnPersonalizado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="boton Personalizado"
+        android:layout_marginTop="140dp"/>
+
+
+
+
+
+
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>
